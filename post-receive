@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/repo.git/hooks/ || exit
+git reset --hard HEAD
+git pull hooks.git master
